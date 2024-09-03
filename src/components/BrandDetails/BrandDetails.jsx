@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-// import classes from "./BrandDetails.module.css";
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import Loader from '../Loader/Loader';

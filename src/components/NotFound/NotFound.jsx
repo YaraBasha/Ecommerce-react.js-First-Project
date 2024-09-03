@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react'
-import classes from "./NotFound.module.css";
+
 import notFound from "../../assets/finalProject assets/404.png"
 
 

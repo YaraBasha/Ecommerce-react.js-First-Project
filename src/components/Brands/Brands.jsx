@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react'
-import classes from "./Brands.module.css";
 import Loader from '../Loader/Loader';
 import axios from 'axios';
 import BrandCard from "../Brandcard/BrandCard";
-import { Link } from 'react-router-dom';
+
 
 export default function Brands() {
     const [brands, setBrands] = useState([]);
@@ -41,7 +40,7 @@ export default function Brands() {
                 ) : (
                     <div className="row">
                         {brands.map((brand) => (
-                            <BrandCard key={brand.id} brand={brand} />
+                            <BrandCard key={brand._id} brand={brand} />
                         ))}
                     </div>
                 )}

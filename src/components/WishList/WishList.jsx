@@ -1,7 +1,4 @@
 import { useContext, useEffect, useState } from 'react'
-import classes from "./WishList.module.css";
-import { Link } from 'react-router-dom';
-import Loader from '../Loader/Loader';
 import { WishlistContext } from '../../context/WishlistContext';
 import { AuthContext } from '../../context/AuthContext';
 import { toast } from 'react-toastify';
@@ -12,7 +9,7 @@ import { toast } from 'react-toastify';
 export default function Wishlist() {
 
     const { getWishlist, wishlist, setWishlist, removeFromWishlist } = useContext(WishlistContext);
-   
+
     const { accessToken } = useContext(AuthContext);
     const [loading, setLoading] = useState(false);
 

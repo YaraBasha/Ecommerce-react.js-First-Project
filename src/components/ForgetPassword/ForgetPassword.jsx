@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react'
-import classes from "./ForgetPassword.module.css";
+import { useState } from 'react'
 import { useFormik} from 'formik';
 import axios from 'axios';
 import * as Yup from 'yup';
@@ -34,7 +33,7 @@ export default function ForgetPassword() {
         try {
             const { data } = await axios.post(`https://ecommerce.routemisr.com/api/v1/auth/forgotPasswords` , values);
             console.log(data);
-             navigate('/resetPassword', { state: { token: data.token } });
+            navigate('/resetPassword', { state: { token: data.token } });
         } catch (error) {
             console.log(error);
             setError(error.response?.data?.message)

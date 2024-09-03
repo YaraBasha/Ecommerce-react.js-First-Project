@@ -1,5 +1,5 @@
-import { useEffect, useState , useContext } from 'react'
-import classes from "./Profile.module.css";
+import {  useContext } from 'react'
+
 import { AuthContext } from '../../context/AuthContext';
 
 

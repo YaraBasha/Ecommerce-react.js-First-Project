@@ -1,8 +1,5 @@
-import { useContext, useEffect, useState } from 'react'
-import classes from "./Checkout.module.css";
+import { useContext, useState } from 'react'
 import { useFormik } from "formik";
-import axios from 'axios';
-import * as Yup from 'yup';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 import { CartContext } from '../../context/CartContext';

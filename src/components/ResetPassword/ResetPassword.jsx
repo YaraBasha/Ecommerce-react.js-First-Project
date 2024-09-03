@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import classes from "./ResetPassword.module.css";
+import {  useState } from 'react'
+
 import { useFormik} from 'formik';
 import axios from 'axios';
 import * as Yup from 'yup';

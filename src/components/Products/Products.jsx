@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import classes from "./Products.module.css";
 import axios from 'axios';
 import Loader from '../Loader/Loader';
 import Product from '../Product/Product';

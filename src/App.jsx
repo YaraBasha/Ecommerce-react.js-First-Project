@@ -24,8 +24,7 @@ import WishlistProvider from './context/WishlistContext';
 import ForgetPassword from './components/ForgetPassword/ForgetPassword';
 import ResetPassword from './components/ResetPassword/ResetPassword';
 import { SearchProvider } from './context/SearchContext';
-import BrandDetails from './components/Branddetails/Branddetails';
-
+import BrandDetails from './components/BrandDetails/BrandDetails'
 
 
 function App() {

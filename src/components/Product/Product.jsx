@@ -1,5 +1,4 @@
-import { useContext, useEffect, useState } from 'react'
-import classes from "./Product.module.css";
+import { useContext} from 'react'
 import { Link } from 'react-router-dom';
 import { CartContext } from '../../context/CartContext';
 import { toast } from 'react-toastify';

@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react'
-import classes from "./Loader.module.css";
+
 import "./Loader.css"
 export default function Loader() {
 

@@ -1,5 +1,4 @@
 import { useContext, useEffect, useState } from 'react'
-import classes from "./MyOrders.module.css";
 import axios from 'axios';
 import { CartContext } from '../../context/CartContext';
 import { AuthContext } from '../../context/AuthContext';

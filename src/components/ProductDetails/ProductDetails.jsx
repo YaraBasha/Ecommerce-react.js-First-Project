@@ -1,5 +1,4 @@
 import { useContext, useEffect, useState } from 'react'
-// import classes from "./ProductDetails.module.css";
 import axios from 'axios';
 import Loader from '../Loader/Loader';
 import { useParams } from 'react-router-dom';
@@ -8,7 +7,7 @@ import Slider from "react-slick";
 import { CartContext } from '../../context/CartContext';
 import { toast } from 'react-toastify';
 import { WishlistContext } from '../../context/WishlistContext';
-// import ProductCard from './ProductCard';
+
 
 export default function ProductDetails() {
 

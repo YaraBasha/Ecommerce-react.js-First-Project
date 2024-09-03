@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react'
-// import classes from "./Categories.module.css";
+
 import Loader from '../Loader/Loader';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
-// import CategoriesDetails from './components/CategoriesDetails/CategoriesDetails';
-import CategoriesDetails from '../CategoriesDetails/CategoriesDetails';
+
+
 import CategoryCard from '../CategoryCard/CategoryCard'
 
 export default function Cetgories() {

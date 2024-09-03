@@ -1,5 +1,5 @@
-import { useContext, useEffect, useState } from 'react'
-import classes from "./Home.module.css";
+import { useContext } from 'react'
+
 import MainSlider from '../MainSlider/MainSlider';
 import CategorySlider from '../CategorySlider/CategorySlider';
 import RecentProducts from '../RecentProducts/RecentProducts';

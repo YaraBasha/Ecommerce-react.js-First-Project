@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react'
-import classes from "./Footer.module.css";
+
 import img1 from "../../assets/finalProject assets/images/google-play.png"
 import img2 from "../../assets/finalProject assets/images/app-store.jpg";
 

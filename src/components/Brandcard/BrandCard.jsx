@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
-import Brands from '../Brands/Brands';
-import BrandDetails from '../Branddetails/Branddetails';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 
 

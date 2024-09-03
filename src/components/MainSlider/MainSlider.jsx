@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react'
-import classes from "./MainSlider.module.css";
+
 
 import img1 from '../../assets/finalProject assets/images/grocery-banner-2.jpeg';
 import img2 from '../../assets/finalProject assets/images/grocery-banner.png';
