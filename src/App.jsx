@@ -18,15 +18,14 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Checkout from './components/Checkout/Checkout';
 import MyOrders from './components/MyOrders/MyOrders';
-// import BrandDetails from './components/Branddetails/Branddetails';
 import CategoriesDetails from './components/CategoriesDetails/CategoriesDetails';
 import Wishlist from './components/WishList/WishList';
 import WishlistProvider from './context/WishlistContext';
 import ForgetPassword from './components/ForgetPassword/ForgetPassword';
 import ResetPassword from './components/ResetPassword/ResetPassword';
-// import Profile from './components/Profile/Profile';
 import { SearchProvider } from './context/SearchContext';
 import BrandDetails from './components/Branddetails/Branddetails';
+
 
 
 function App() {
@@ -82,7 +81,7 @@ function App() {
         {
           path: "/brands/:id",
           element: (<Security>
-            <BrandDetails />
+            <BrandDetails/>
           </Security>),
         },
         {
