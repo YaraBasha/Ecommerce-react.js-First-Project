@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active{
+    @apply text-green-500 underline;
+}
+
+.btn{
+    @apply px-4 py-2 rounded;
+}
+
+.btn-green{
+    @apply text-white bg-green-600 hover:bg-green-700;
+}
+
+.btn[disabled]{
+    @apply opacity-40
+}
+
+.alert{
+    @apply p-2 rounded-lg;
+}
+
+.alert-error{
+    @apply bg-red-100 text-red-600 border border-red-300;
+}
+
+.row{
+    @apply flex flex-wrap -mx-4;
+}
+
+
+
+.product:hover {
+    box-shadow: 0px 2px 4px -1px, rgba(145, 158, 171, .14) 0px 4px 5px 0px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
+}
+
+.product .btn {
+    transition: transform 1s, opacity 1s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.product:hover .btn {
+    opacity: 1;
+    transform: translateY(0%);
+
+}
+
+
+.fpw{
+    @apply cursor-pointer text-sm
+}
+
+
+.object-fit{
+@apply object-cover;
+}
+
+
+.category-card {
+    @apply h-full flex flex-col;
+}
+
+.category-card img {
+    @apply object-cover;
+}
+
+.carddd:hover{
+    box-shadow: 0px 2px 4px -1px, rgba(145, 158, 171, .14) 0px 4px 5px 0px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
+}

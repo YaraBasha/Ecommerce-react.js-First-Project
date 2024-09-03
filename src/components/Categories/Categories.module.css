@@ -1,0 +1,7 @@
+.Cetgories {}
+
+.CategoryImage {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
